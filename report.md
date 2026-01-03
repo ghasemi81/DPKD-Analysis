@@ -85,7 +85,7 @@ In this experiment, the packet lifecycle within the `dpdk-testpmd` application w
 
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/73376dd0-84b8-46f5-a983-be94429dd4c2" />
 
-#### Case Study: `rte_net_get_ptype`
+`rte_net_get_ptype`
 The `rte_net_get_ptype` function is critical for packet pre-processing, responsible for parsing headers to determine protocol types without heavy processing.
 Analyzing this function against our criteria reveals:
 * **Call Count:** 23
